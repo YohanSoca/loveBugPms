@@ -1,0 +1,13 @@
+{ 
+    "koyo ip": "197.168.0.7",
+    "koyo port": 502,
+    "ip port": "192.168.0.7",
+    "port port": 502,
+    "ip stbd": "192.168.0.7",
+    "port stbd": 502,
+    "asea port": "/dev/ttyUSB0",
+    "asea baudrate": 19200,
+    "asea parity": "none",
+    "asea bits": 8,
+    "asea stop bits": 1
+}

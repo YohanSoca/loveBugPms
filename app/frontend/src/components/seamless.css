@@ -1,0 +1,72 @@
+
+#controller {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    border-radius: 20px;
+    grid-column: 74 / 98;
+    grid-row: 20 / 90; 
+    box-shadow: 2px 2px 2px wheat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#indicators {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#transfer-in-progress {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(238, 85, 85);
+    border-radius: 50%;
+}
+
+#paralleled {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+#fault {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#main-bus-gauges {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-bus-gauges h1 {
+    font-size: 200%;
+    color: wheat;
+}
+
+.btns-wrapper {
+    margin-bottom: 20px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.transfer-btns {
+    width: calc(100vw / 16);
+    height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+
+    background-color: rgb(8, 88, 36);
+    color: white;
+}

@@ -1,0 +1,50 @@
+{
+    "pms": 0,
+    "port gensys": {
+        "auto": false,
+        "start gen": false,
+        "online": false,
+        "running": false
+    },
+    "stbd gensys": {
+        "auto": false,
+        "start gen": false,
+        "online": false,
+        "running": false
+    },
+    "asea": {
+        "shore on": false,
+        "converter on": false,
+        "transfer to port": false,
+        "transfer to stbd": false,
+        "transfer to shore": false
+    },
+    "thrusfer": {
+        "auto": false
+    },
+    "vfds": {
+        "port aft": {
+            "vfd on": false,
+            "reverse": false,
+            "speed":0
+        },
+        "port foward": {
+            "vfd on": false,
+            "reverse": false,
+            "speed":0
+        },
+        "stbd aft": {
+            "vfd on": false,
+            "reverse": false,
+            "speed":0
+        },
+        "stbd foward": {
+            "vfd on": false,
+            "reverse": false,
+            "speed":0
+        }
+    },
+    "koyo": {
+        "coils": [true, true, false, false, true, true]
+    }
+}

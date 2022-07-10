@@ -1,0 +1,18 @@
+{
+  "name": "web-socket",
+  "version": "1.0.0",
+  "description": "Modbus to websocket gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yohan",
+  "license": "ISC",
+  "dependencies": {
+    "io-utils": "^1.0.2",
+    "is-reachable": "^5.2.0",
+    "modbus-serial": "^8.0.5",
+    "os-utils": "^0.0.14",
+    "socket.io": "^4.5.1"
+  }
+}

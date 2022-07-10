@@ -1,0 +1,29 @@
+
+
+  .control {
+    grid-column: 50 / 90;
+        grid-row: 1 / 90;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
+
+  .control button {
+      margin-top: 20px;
+      height: 50px;
+      width: calc(100vw / 18);
+      max-width: 250;
+      font-size: 2rem;
+      border-radius: 20px;
+      margin-right: 20px;
+  }
+
+  .control h1 {
+      color: wheat;
+      font-size: calc(100vw / 40);
+  }
+
+
+
